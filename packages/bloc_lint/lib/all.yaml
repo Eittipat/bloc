@@ -1,8 +1,11 @@
 bloc:
   rules:
+    - avoid_build_context_extensions
     - avoid_flutter_imports
     - avoid_public_bloc_methods
     - avoid_public_fields
     - prefer_bloc
+    - prefer_context_extensions
     - prefer_cubit
+    - prefer_file_naming_conventions
     - prefer_void_public_cubit_methods
